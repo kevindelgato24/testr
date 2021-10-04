@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Place Request</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+    <script src="button.js"></script>
+    
+  </head>
+    
+
+  <body>
+<div class="body">
+    <div class="testbox">
+      <form action="/">
+        <h1> Place Request to Acess Feature</h1>
+        <div class="item">
+          <p>Name *</p>
+          <div class="name-item">
+            <input type="text" name="name" placeholder="First" required />
+            <input type="text" name="name" placeholder="Last"  required/>
+          </div>
+        </div>
+    <div class="item status">
+       <p>Your Department *</p>        
+         <div class="gender">     
+                <input type="radio" value="none" id="male" name="gender" required/>
+                <label for="male" class="radio">Relationship Manager</label>
+                <input type="radio" value="none" id="male" name="gender" required/>
+                <label for="male" class="radio">Admin Team</label>
+                <input type="radio" value="none" id="male" name="gender" required/>
+                <label for="male" class="radio">Company Operator</label>
+                <input type="radio" value="none" id="male" name="gender" required/>
+                <label for="male" class="radio">HR Team</label>
+                <input type="radio" value="none" id="male" name="gender" required/>
+                <label for="male" class="radio">ISM</label>
+          </div>
+        </div>
+          
+
+          
+        <div class="itemi">  
+           <p>Choose Request *</p>
+            <select>
+              <option selected value="" disabled selected></option>
+              <option value="1" >View Customer Details</option>
+              <option value="2">CRUD Operations For Customers</option>
+              <option value="3">View All Customer Subscription</option>
+             <option value="4">Usage Details For Customer</option>
+             <option value="5">Calculate Total Usage Of a Customer</option>
+             <option value="6">CRUD Operations For Employees</option>
+            <option value="7">Provide Access to Employees</option>
+            <option value="8">Manage Employee Requests</option>
+            </select>
+          
+          </div>
+          
+          
+          
+          <!-- *Radio* <p>Feature *</p>        
+         <div class="gender">     
+                <input type="radio" value="none" id="feature" name="genderr" required/>
+                <label for="feature" class="radio">View Customer Details</label>
+                <input type="radio" value="none" id="feature" name="genderr" required/>
+                <label for="feature" class="radio">CRUD Operations For Customers Plan</label>
+                <input type="radio" value="none" id="feature" name="genderr" required/>
+                <label for="feature" class="radio">View All Customer Subscription</label>
+                <input type="radio" value="none" id="feature" name="genderr" required/>
+                <label for="feature" class="radio">Usage Details For Customer</label>
+                <input type="radio" value="none" id="feature" name="genderr" required/>
+                <label for="feature" class="radio">Calculate Total Usage Of a Customer</label>
+                <input type="radio" value="none" id="feature" name="genderr" required/>
+                <label for="feature" class="radio">CRUD Operations For Employees</label>
+                <input type="radio" value="none" id="feature" name="genderr" required/>
+                <label for="feature" class="radio">Provide Access to Employees</label>
+                <input type="radio" value="none" id="feature" name="genderr" required/>
+                <label for="feature" class="radio">Manage Employee Requests</label>
+          </div>-->
+ 
+        <div class="item">
+          <p>Phone *</p>
+          <input type="text" name="name" required/>
+        </div>
+        <div class="item">
+          <p>Start Date For Feature *</p>
+          <input type="date" name="name" required/>
+          <i class="fas fa-calendar-alt"></i>
+          </div> 
+          <div class="item">
+          <p>Expiry Date For Feature *</p>
+          <input type="date" name="name" required/>
+          <i class="fas fa-calendar-alt"></i>
+          </div> 
+        <div class="item">
+          <p>Feature Request Description:</p>
+          <textarea rows="5"></textarea>
+        </div>
+        <div class="item">
+          <p>Potential Benefits by Implemneting Feature:</p>
+          <textarea rows="3"></textarea>
+        </div>
+        <div class="item">
+          <p>Additional Comment(s):</p>
+          <textarea rows="3"></textarea>
+        </div>
+        <div class="btn-block">
+          <button onClick="clickMe()">Submit</button>
+        
+        </div>
+     
+      </form>
+    </div>
+             
+              </div>
+  </body>
+
+</html>
